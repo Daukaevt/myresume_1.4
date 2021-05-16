@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ded0bd"
     tools:context=".MainActivity">
 
     <ImageView
@@ -63,75 +64,86 @@
         app:layout_constraintTop_toBottomOf="@+id/email" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Expression"
         android:layout_width="409dp"
-        android:layout_height="95dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:gravity="center_vertical"
-        android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@+id/Kupishuz"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/adress" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/Kupishuz"
         android:layout_width="409dp"
-        android:layout_height="95dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:gravity="center_vertical"
-        android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        android:text="Ноябрь 2020— по настоящее время, ООО Купишуз, Кладовщик-Комплектовщик"
+        app:layout_constraintBottom_toTopOf="@+id/Vympelcom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/Expression" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/Vympelcom"
         android:layout_width="409dp"
-        android:layout_height="96dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:gravity="center_vertical"
-        android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        android:text="Декабрь 2019— ноябрь 2020 ПАО Вымпелком Специалист офиса"
+        app:layout_constraintBottom_toTopOf="@+id/Demidov"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/Kupishuz" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/Demidov"
         android:layout_width="409dp"
-        android:layout_height="95dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:gravity="center_vertical"
-        android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        android:text="Июль 2017— декабрь 2019 ООО ГК Демидов Менеджер по продажам"
+        app:layout_constraintBottom_toTopOf="@+id/Kzn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/Vympelcom" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/Kzn"
         android:layout_width="409dp"
-        android:layout_height="95dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:gravity="center_vertical"
-        android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        android:text="Август 2007 - ноябрь 2012  ООО Казань-Комплект Директор"
+        app:layout_constraintBottom_toTopOf="@+id/school"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/Demidov" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/school"
         android:layout_width="409dp"
-        android:layout_height="96dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:gravity="center_vertical"
-        android:text="TextView"
+        android:text="Обучение"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/Kzn" />
 
 </android.support.constraint.ConstraintLayout>
