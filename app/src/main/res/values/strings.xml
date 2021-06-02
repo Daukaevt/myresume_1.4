@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">MyResume1.4</string>
+    <string name="myName">Daukaev Timur Gamirovich, Android developer with kotlin</string>
+    <string name="adress">Adress: Russia, Moscow region, Ostrovtsy vl.</string>
+    <string name="kupishuz">November 2020— to the present, Kupishuz LLC, Stockman-Picker</string>
+    <string name="Vimpelcom">December 2019— November 2020 PJSC VimpelCom Office Specialist</string>
+    <string name="Demidov">July 2017— December 2019 Demidov Group of Companies LLC Sales Manager</string>
+    <string name="KZN">August 2007 - November 2012 OOO Kazan-Komplekt Director</string>
+    <string name="education">Education</string>
+    <string name="kupishuz1">"   Main responsibilities: timely shipment of products from the company's warehouse. St. Udelnaya, Moscow Region"</string>
+    <string name="vympelcom1">"   Main responsibilities: Work in the 1-C system and other specialized application software. Ensuring uninterrupted communication of subscribers, communication services. Fulfillment of the sales plan. Office customer service. Moscow"</string>
+    <string name="demidov1">"   Main responsibilities: Wholesale of rolled metal products. Fulfillment of the sales plan. Office in Moscow"</string>
+    <string name="kzn">"   Opening of a wholesale warehouse. Organization of wholesale trade in building materials (components for the production of windows). Forming and maintaining a client base. Negotiations. Maintaining a bank account. Logistics. Personnel management. Kazan city."</string>
+    <string name="school1">"   1995-2000 Kyrgyz-Russian Slavic University Education at the university in the specialty: manager of financial and banking management andin 1985-1995 secondary school №35in a secondary school in Bishkek, which he graduated with a gold medal."</string>
 </resources>
