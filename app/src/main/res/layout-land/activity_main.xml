@@ -126,104 +126,112 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/linearLayout"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@id/pic"
-                app:layout_constraintTop_toTopOf="parent">
-
-                <TextView
-                    android:id="@+id/Expression"
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linearLayout"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="#FBEEC7"
-                    android:gravity="top"
-                    android:textColor="#2B8E84"
-                    android:textSize="16dp"
-                    app:layout_constraintStart_toStartOf="@id/linearLayout"
-                    app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/pic"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/Expression"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        android:background="#FBEEC7"
+                        android:gravity="top"
+                        android:textColor="#2B8E84"
+                        android:textSize="16dp"
+                        app:layout_constraintStart_toStartOf="@id/linearLayout"
+                        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
 
 
-                <TextView
-                    android:id="@+id/Kupishuz"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginTop="16dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/kupishuz"
-                    app:layout_constraintBottom_toTopOf="@+id/Vympelcom"
-                    app:layout_constraintEnd_toEndOf="@id/linearLayout"
-                    app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toStartOf="@id/linearLayout"
-                    app:layout_constraintTop_toBottomOf="@id/Expression" />
+                    <TextView
+                        android:id="@+id/Kupishuz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="12dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/kupishuz"
+                        app:layout_constraintBottom_toTopOf="@+id/Vympelcom"
+                        app:layout_constraintEnd_toEndOf="@id/linearLayout"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="@id/linearLayout"
+                        app:layout_constraintTop_toBottomOf="@id/Expression" />
 
-                <TextView
-                    android:id="@+id/Vympelcom"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginTop="16dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/Vimpelcom"
-                    app:layout_constraintBottom_toTopOf="@+id/Demidov"
-                    app:layout_constraintEnd_toEndOf="@id/linearLayout"
-                    app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toStartOf="@id/linearLayout"
-                    app:layout_constraintTop_toBottomOf="@+id/Kupishuz" />
+                    <TextView
+                        android:id="@+id/Vympelcom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="12dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/Vimpelcom"
+                        app:layout_constraintBottom_toTopOf="@+id/Demidov"
+                        app:layout_constraintEnd_toEndOf="@id/linearLayout"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="@id/linearLayout"
+                        app:layout_constraintTop_toBottomOf="@+id/Kupishuz" />
 
-                <TextView
-                    android:id="@+id/Demidov"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginTop="16dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/Demidov"
-                    app:layout_constraintBottom_toTopOf="@+id/Kzn"
-                    app:layout_constraintEnd_toEndOf="@id/linearLayout"
-                    app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toStartOf="@id/linearLayout"
-                    app:layout_constraintTop_toBottomOf="@+id/Vympelcom" />
+                    <TextView
+                        android:id="@+id/Demidov"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="12dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/Demidov"
+                        app:layout_constraintBottom_toTopOf="@+id/Kzn"
+                        app:layout_constraintEnd_toEndOf="@id/linearLayout"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="@id/linearLayout"
+                        app:layout_constraintTop_toBottomOf="@+id/Vympelcom" />
 
-                <TextView
-                    android:id="@+id/Kzn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginTop="16dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/KZN"
-                    app:layout_constraintBottom_toTopOf="@+id/school"
-                    app:layout_constraintEnd_toEndOf="@id/linearLayout"
-                    app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toStartOf="@id/linearLayout"
-                    app:layout_constraintTop_toBottomOf="@+id/Demidov" />
+                    <TextView
+                        android:id="@+id/Kzn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="12dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/KZN"
+                        app:layout_constraintBottom_toTopOf="@+id/school"
+                        app:layout_constraintEnd_toEndOf="@id/linearLayout"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="@id/linearLayout"
+                        app:layout_constraintTop_toBottomOf="@+id/Demidov" />
 
-                <TextView
-                    android:id="@+id/school"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginTop="16dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/education"
-                    app:layout_constraintBottom_toBottomOf="@id/linearLayout"
-                    app:layout_constraintEnd_toEndOf="@id/linearLayout"
-                    app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toStartOf="@id/linearLayout"
-                    app:layout_constraintTop_toBottomOf="@+id/Kzn" />
+                    <TextView
+                        android:id="@+id/school"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="12dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/education"
+                        app:layout_constraintBottom_toBottomOf="@id/linearLayout"
+                        app:layout_constraintEnd_toEndOf="@id/linearLayout"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="@id/linearLayout"
+                        app:layout_constraintTop_toBottomOf="@+id/Kzn" />
 
-            </LinearLayout>
+                </LinearLayout>
+
+
+            </ScrollView>
+
 
         </LinearLayout>
 
