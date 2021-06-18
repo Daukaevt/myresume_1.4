@@ -16,14 +16,18 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        init()
+        adress.setOnClickListener {
+            MapAct()
+        }
+    }
+
+    fun init(){
         val Kupishuz1: String = getString(R.string.kupishuz1)
         val Vympelcom1: String = getString(R.string.vympelcom1)
         val Demidov1: String = getString(R.string.demidov1)
         val KZN: String = getString(R.string.kzn)
         val School1: String = getString(R.string.school1)
-        adress.setOnClickListener {
-            MapAct()
-        }
         Kupishuz.setOnClickListener {
             Expression.text = sp
             Expression.textColors
@@ -41,10 +45,12 @@ class MainActivity : AppCompatActivity() {
             Expression.text = sp
             setTextFields(School1)  }
     }
+
     fun MapAct() {
         val MapIntent = Intent(this, MainActivity2::class.java)
         startActivity(MapIntent)
     }
+
     fun setTextFields (str: String){
         Expression.append(str)
     }
