@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ded0bd"
+    android:background="@drawable/pphoto2021jun18"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -81,6 +81,7 @@
 
                     <TextView
                         android:id="@+id/phone"
+                        style="@style/Widget.AppCompat.TextView.SpinnerItem"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -96,6 +97,7 @@
 
                     <TextView
                         android:id="@+id/email"
+                        style="@style/Widget.AppCompat.TextView.SpinnerItem"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -110,6 +112,7 @@
 
                     <TextView
                         android:id="@+id/adress"
+                        style="@style/Widget.AppCompat.TextView.SpinnerItem"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -117,18 +120,20 @@
                         android:layout_weight="1"
                         android:gravity="center|start"
                         android:text="@string/adress"
-                        android:textSize="12dp"
+                        android:textSize="14sp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/parent"
                         app:layout_constraintTop_toBottomOf="@+id/email" />
 
                 </LinearLayout>
 
+
             </LinearLayout>
 
             <ScrollView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent">
+
                 <LinearLayout
                     android:id="@+id/linearLayout"
                     android:layout_width="match_parent"
@@ -154,6 +159,7 @@
 
                     <TextView
                         android:id="@+id/Kupishuz"
+                        style="@style/Widget.AppCompat.TextView.SpinnerItem"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -169,6 +175,7 @@
 
                     <TextView
                         android:id="@+id/Vympelcom"
+                        style="@style/Widget.AppCompat.TextView.SpinnerItem"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -184,6 +191,7 @@
 
                     <TextView
                         android:id="@+id/Demidov"
+                        style="@style/Widget.AppCompat.TextView.SpinnerItem"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -199,6 +207,7 @@
 
                     <TextView
                         android:id="@+id/Kzn"
+                        style="@style/Widget.AppCompat.TextView.SpinnerItem"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -214,6 +223,7 @@
 
                     <TextView
                         android:id="@+id/school"
+                        style="@style/Widget.AppCompat.TextView.SpinnerItem"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
