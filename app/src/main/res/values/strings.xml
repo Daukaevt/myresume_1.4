@@ -12,4 +12,6 @@
     <string name="demidov1">"   Main responsibilities: Wholesale of rolled metal products. Fulfillment of the sales plan. Office in Moscow"</string>
     <string name="kzn">"   Opening of a wholesale warehouse. Organization of wholesale trade in building materials (components for the production of windows). Forming and maintaining a client base. Negotiations. Maintaining a bank account. Logistics. Personnel management. Kazan city."</string>
     <string name="school1">"   1995-2000 Kyrgyz-Russian Slavic University Education at the university in the specialty: manager of financial and banking management andin 1985-1995 secondary school №35in a secondary school in Bishkek, which he graduated with a gold medal."</string>
+    <string name="sp" translatable="false"></string>
+    <string name="copyEmail">Email Copied. Please PASTE it into your ESP(Email Service Provider(gmail.com etc.))</string>
 </resources>
